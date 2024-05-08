@@ -1,0 +1,25 @@
+.sk-logo {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #6C63FF; /* Purple color */
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+cursor: pointer;
+}
+
+.sk-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.sk-logo::before {
+  content: 'S.K.';
+  color: #fff; /* White color */
+  z-index: 1;
+  transform: translate(-2px, -2px);
+}
+

@@ -1,0 +1,6 @@
+.main-heading {
+    text-align: center;
+  }
+  .vertical-timeline-element::before {
+    border-left-width: 60px; /* Adjust the width as needed */
+  }

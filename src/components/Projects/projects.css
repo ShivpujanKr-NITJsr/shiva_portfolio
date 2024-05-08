@@ -1,0 +1,20 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure the card takes up the full height */
+  }
+  
+  .project-card-view {
+    flex: 1; /* Make the card body expand to fill the remaining space */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-body {
+    flex-grow: 1; /* Make the card body expand to fill the remaining space */
+  }
+  
+  .card-link {
+    margin-top: auto; /* Push the link to the bottom */
+  }
+  
