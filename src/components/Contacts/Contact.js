@@ -4,15 +4,9 @@ import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import './contact.css';
 
 import { FaPhoneAlt } from 'react-icons/fa';
-
-// import { CgMail } from "react-icons/cg";
-
-import { FaRegAddressCard } from 'react-icons/fa';
-
 import { SiGmail } from 'react-icons/si';
-
+import { FaRegAddressCard } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
-
 import { FaGithub } from 'react-icons/fa';
 
 const SERVICE_ID = 'service_4ubm7dj';
@@ -96,10 +90,10 @@ const Contact = () => {
                       
                     </div>
                     <Button
-                          className="copyright-in-contact-footer"
-                        >
-                          Copyright © 2024 SK
-                        </Button>
+                      className="copyright-in-contact-footer"
+                    >
+                      Copyright © 2024 SK
+                    </Button>
                   </div>
                 </div>
                 <div className='col-md-2'>
@@ -113,7 +107,7 @@ const Contact = () => {
                           rel='noopener noreferrer'
                         >
                           <i>
-                            <FaLinkedinIn  />
+                            <FaLinkedinIn />
                           </i>
                         </a>
                       </li>
@@ -136,20 +130,17 @@ const Contact = () => {
               <div className='contact_info_sec'>
                 <h4>Contact Info</h4>
                 <div className='d-flex info_single align-items-center phone-no-contains'>
-                  
-                  <span>
+                  <a href="tel:+916204783696">
                     <FaPhoneAlt />
                     +91 6204783696
-                  </span>
+                  </a>
                 </div>
                 <div className='d-flex info_single email-containers-li align-items-center '>
-                  
-                  <span className='span-email'>
+                  <a href="mailto:sahil.8228053857@gmail.com">
                     <SiGmail /> sahil.8228053857@gmail.com
-                  </span>
+                  </a>
                 </div>
                 <div className='d-flex info_single align-items-center location-cotains'>
-                 
                   <span>
                     {' '}
                     <FaRegAddressCard style={{ marginRight: '5px' }} />
