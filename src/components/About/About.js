@@ -13,7 +13,7 @@ const About = () => {
               About <span className="purple"> MYSELF </span> 
             </h1>
             <p className="home-about-body">
-              I love to explore new technologies and never get bored while discovering the latest advancements.
+              I love to explore new technologies which fills me with excitement and ignites the my passion for discovering the latest advancement.
               <br />
               <br />Embark on a transformative journey with me, your dedicated 
               <i>
