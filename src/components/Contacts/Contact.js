@@ -101,7 +101,7 @@ const Contact = () => {
                     <div className='socil_item_inner d-flex'>
                       <li>
                         <a
-                          href='https://www.linkedin.com/in/shivpujan-kumar-008003198/'
+                          href='https://www.linkedin.com/in/shiv-p-kumar-008003198/'
                           style={{ color: 'white' }}
                           target='_blank'
                           rel='noopener noreferrer'
